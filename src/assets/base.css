@@ -1,0 +1,134 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #575068;
+}
+
+.title {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-input input {
+  width: 60%;
+  height: 40px;
+  border: 3px solid #F29A30;
+  background-color: #E1D8EF;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-input button {
+  justify-content: center;
+  margin-left: 1%;
+  width: 20%;
+  height: 40px;
+  border: 3px solid #F29A30;
+  border-radius: 10px;
+  background-color: #E1D8EF;
+  color: Black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list-editoras {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 80%;
+  margin: 2% auto;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+table tr th {
+  border: 3px solid #F29A30;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table tr td {
+  border: 3px solid #F29A30;
+  padding: 10px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #575068;
+}
+.acoes{
+  background-color: #E1D8EF;
+  border: #F29A30;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.categoria{
+  background-color: #E1D8EF;
+  border-radius: 10px;
+  border: #F29A30;
+  justify-content: center
+}
+.editora{
+  background-color: white;
+  border-radius: 10px;
+  border: #D9EBEA;
+  margin-left: 2%;
+}
+.list-autores {
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center 
+}
+.edit-btn{
+  margin-left: 10%;
+  width: 60%;
+  height: 40px;
+  margin-bottom: 5%;
+  border: 1px solid #E1D8EF;
+  border-radius: 10px;
+  background-color: #E1D8EF;
+  color: Black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+.select-btn{
+  width: 40%;
+  height: 40px;
+  border: 3px solid #F29A30;
+  border-radius: 10%;
+  background-color: #E1D8EF;  
+  color: Black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
