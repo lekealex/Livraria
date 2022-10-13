@@ -16,26 +16,26 @@ body {
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gill Sans', 'sans-serif';
 }
 .form-input {
   margin-top: 10px;
   display: flex;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gill Sans', 'sans-serif';
 }
 
 .form-input input {
   width: 60%;
   height: 40px;
-  border: 3px solid #F29A30;
+  border: 1.5px solid #6fd80c;
   background-color: #E1D8EF;
-  border-radius: 10px;
-  padding: 0 10px;
-  font-family: 'Montserrat', sans-serif;
+  border-radius: 15px;
+  padding:  13px;
+  font-family: 'Gill Sans', 'sans-serif';
 }
 
 .form-input button {
@@ -43,37 +43,31 @@ body {
   margin-left: 1%;
   width: 20%;
   height: 40px;
-  border: 3px solid #F29A30;
-  border-radius: 10px;
+  border: 3px solid #6fd80c;
+  border-radius: 8px;
   background-color: #E1D8EF;
   color: Black;
   font-weight: bold;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.list-editoras {
-  display: flex;
-  justify-content: center;
+  font-family: 'Gill Sans', 'sans-serif';
 }
 
 table {
   width: 80%;
-  margin: 2% auto;
+  margin: 4% auto;
   border-collapse: collapse;
-  font-family: 'Montserrat', sans-serif;
-  
+  font-family: 'Gill Sans', 'sans-serif';
 }
 
 table tr th {
-  border: 3px solid #F29A30;
-  padding: 10px;
+  border: 3px solid #6fd80c;
+  padding: 12px;
   font-weight: bold;
 }
 
 table tr td {
-  border: 3px solid #F29A30;
-  padding: 10px;
+  border: 3px solid #6fd80c;
+  padding: 15px;
 }
 
 table tr:nth-child(odd) {
@@ -81,7 +75,7 @@ table tr:nth-child(odd) {
 }
 .acoes{
   background-color: #E1D8EF;
-  border: #F29A30;
+  border: #6fd80c;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -89,7 +83,7 @@ table tr:nth-child(odd) {
 .categoria{
   background-color: #E1D8EF;
   border-radius: 10px;
-  border: #F29A30;
+  border: #6fd80c;
   justify-content: center
 }
 .editora{
@@ -98,37 +92,29 @@ table tr:nth-child(odd) {
   border: #D9EBEA;
   margin-left: 2%;
 }
-.list-autores {
-  display: flex;
-  justify-content: center;
-}
 
-.container{
-  font-family: 'Montserrat', sans-serif;
-  justify-content: center 
-}
 .edit-btn{
-  margin-left: 10%;
-  width: 60%;
-  height: 40px;
-  margin-bottom: 5%;
-  border: 1px solid #E1D8EF;
-  border-radius: 10px;
+  margin-left: 16%;
+  width: 70%;
+  height: 38px;
+  margin-bottom: 3%;
+  border: 1px solid #6fd80c;
+  border-radius: 100px;
   background-color: #E1D8EF;
   color: Black;
   font-weight: bold;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gill Sans', 'sans-serif';
   justify-content: center;
 }
 .select-btn{
   width: 40%;
   height: 40px;
-  border: 3px solid #F29A30;
+  border: 3px solid #6fd80c;
   border-radius: 10%;
   background-color: #E1D8EF;  
   color: Black;
   font-weight: bold;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gill Sans', 'sans-serif';
 }
