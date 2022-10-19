@@ -10,7 +10,8 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/cadautores">Cadastro de Autores</RouterLink>
       <RouterLink to="/cadeditoras">Cadastro de Editoras</RouterLink>
       <RouterLink to="/cadcategorias">Cadastro de Categorias</RouterLink>
-    </nav>
+      
+    </nav> 
   </header>
 
   <RouterView />
@@ -25,11 +26,10 @@ header {
   margin-bottom: 5vh;
   padding: 1vh;
   box-shadow: 1px 1px 400px rgb(25, 0, 255);
-  font-family: "Gill Sans", "sans-serif";
+  font-family: 'Gill Sans', 'sans-serif';
 }
 
-a,
-.green {
+a, .green {
   text-decoration: none;
   color: rgb(19, 17, 184);
   transition: 0.5s;
@@ -50,7 +50,8 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 5rem;
+  padding: 0 6rem;
   border-left: 1px solid var(--color-border);
 }
+
 </style>
